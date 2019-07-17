@@ -1,0 +1,119 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+p
+{
+  font-size: 105%;
+}
+
+body
+{
+background: url(../img/Moonrise.jpg);
+}
+
+header , .main , footer
+{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header  nav
+{
+  background: #113972;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Zona del Logotipo, puedes dejarla el color del body o cambiarselo*/
+img
+{
+  border-radius: 10px;
+}
+
+header  nav  ul
+{
+  list-style: none;
+}
+
+header nav  ul  li
+{
+  float: left;
+}
+
+ header nav  ul  li a
+ {
+   padding: 20px;
+   display: block;
+   text-decoration: none;
+   color: white;
+ }
+
+ header nav  ul  li a:hover
+ {
+   background:rgb(67, 124, 204);
+ }
+
+.main .article
+{
+  width:68.5%;
+  float: left;
+  margin-right: 1.5%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+section
+{
+  background: rgb(72, 189, 247);
+  margin-bottom: 22px;
+}
+
+article
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+}
+
+aside
+{
+  width: 30%;
+  padding: 20px;
+  background: #fcac62;
+  float: left;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+}
+
+div .aside2
+{
+  margin-top: 18px;
+}
+
+footer
+{
+  background: black;
+  max-width: 970px;
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+  clear: both;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 , h3
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 735px)
+{
+         .aside2{
+              display: none;
+            }
+}
